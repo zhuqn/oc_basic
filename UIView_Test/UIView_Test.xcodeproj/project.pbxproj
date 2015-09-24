@@ -14,6 +14,7 @@
 		2FF69EBD1B70C88300FA6E1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF69EBC1B70C88300FA6E1E /* Images.xcassets */; };
 		2FF69EC01B70C88300FA6E1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF69EBE1B70C88300FA6E1E /* LaunchScreen.xib */; };
 		2FF69ECC1B70C88300FA6E1E /* UIView_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF69ECB1B70C88300FA6E1E /* UIView_TestTests.m */; };
+		2FF69ED71B70C8C000FA6E1E /* ZQNUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF69ED61B70C8C000FA6E1E /* ZQNUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2FF69EC51B70C88300FA6E1E /* UIView_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIView_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF69ECA1B70C88300FA6E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FF69ECB1B70C88300FA6E1E /* UIView_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_TestTests.m; sourceTree = "<group>"; };
+		2FF69ED51B70C8C000FA6E1E /* ZQNUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNUIView.h; sourceTree = "<group>"; };
+		2FF69ED61B70C8C000FA6E1E /* ZQNUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		2FF69EA31B70C88300FA6E1E = {
 			isa = PBXGroup;
 			children = (
+				2FF69ED51B70C8C000FA6E1E /* ZQNUIView.h */,
+				2FF69ED61B70C8C000FA6E1E /* ZQNUIView.m */,
 				2FF69EAE1B70C88300FA6E1E /* UIView_Test */,
 				2FF69EC81B70C88300FA6E1E /* UIView_TestTests */,
 				2FF69EAD1B70C88300FA6E1E /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF69ED71B70C8C000FA6E1E /* ZQNUIView.m in Sources */,
 				2FF69EB81B70C88300FA6E1E /* ViewController.m in Sources */,
 				2FF69EB51B70C88300FA6E1E /* AppDelegate.m in Sources */,
 				2FF69EB21B70C88300FA6E1E /* main.m in Sources */,

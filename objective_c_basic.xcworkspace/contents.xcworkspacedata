@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:les2_oc_TimeZone/les2_oc_TimeZone.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:les1_oc_pr_mybirthdaySecondsTime/les1_oc_pr_mybirthdaySecondsTime.xcodeproj">
+   </FileRef>
+</Workspace>
